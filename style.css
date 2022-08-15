@@ -540,7 +540,7 @@ text-decoration: none;
   font-family: "Sofia", sans-serif;
   
   margin-left: 10%;
-  top: 10%;
+  top: 6%;
  
 }
 
@@ -557,7 +557,7 @@ text-decoration: none;
 }
 .button_content{
   display: grid;
-  grid-gap: 40px;
+  grid-gap: 20px;
 }
 
 .cta {
@@ -576,6 +576,11 @@ margin-left: 25%;
 .terms{
     font-size: 1rem;
 }
+
+.col3  {
+  display: none;
+}
+
 }
 
 
