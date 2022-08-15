@@ -546,7 +546,7 @@ text-decoration: none;
 
 .content h1{
   font-size: 4rem;
- padding-bottom: 5%;
+ padding-bottom: 3%;
 }
 .content h3{
  
@@ -557,7 +557,7 @@ text-decoration: none;
 }
 .button_content{
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
 .cta {
@@ -580,7 +580,9 @@ margin-left: 25%;
 .col3  {
   display: none;
 }
-
+.col3 ion-icon {
+  display: none;
+}
 }
 
 
