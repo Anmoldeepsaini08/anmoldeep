@@ -532,6 +532,46 @@ text-decoration: none;
 }
 
 
+.top {
+  display: none;
+ padding: 15px 45px;
+ margin-top: 4%;
+ border: unset;
+ border-radius: 15px;
+ color: #212121;
+ z-index: 1;
+ background: #e8e8e8;
+ position: relative;
+ font-weight: 1000;
+ font-size: 17px;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
+
+.top::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 0;
+ border-radius: 15px;
+ background-color: #212121;
+ z-index: -1;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms
+}
+
+.top:hover {
+ color: #e8e8e8;
+}
+
+.top:hover::before {
+ width: 100%;
+}
     /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 580px) {
 /* Styles */
@@ -582,6 +622,12 @@ margin-left: 25%;
 }
 .col3 ion-icon {
   display: none;
+}
+.col2 {
+  flex: 1;
+}
+.top{
+  display: block;
 }
 }
 
