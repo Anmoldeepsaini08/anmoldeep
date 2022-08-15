@@ -1,0 +1,582 @@
+	
+
+  body, html {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.back_container {
+  /* The image used */
+background-image: linear-gradient(to right top, #ffb9e1, #f3baeb, #e3bbf3, #d2befa, #bec0fe, #abc7ff, #9aceff, #8dd4ff, #85e0ff, #83ebff, #88f5fe, #94fff8);
+
+  /* Full height */
+  height: 100%; 
+top: 0;
+width: 100%;
+position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content{
+	position: absolute;
+	font-family: "Sofia", sans-serif;
+	
+	margin-left: 13%;
+	top: 25%;
+	width: 75%;
+	text-align: center;
+	color: #212121;
+}
+.content h1{
+	font-size: 5rem;
+}
+.content h3{
+	font-size: 1.7rem;
+}
+
+
+.arrow-down{
+  width:60px;
+  height:40px;
+  margin:0 0 0 -30px;
+  position:absolute;
+  left:50%;
+  bottom:0px;
+  -webkit-animation: arrow 0.6s 0.8s infinite ease-out alternate;
+  
+}
+
+.arrow-down:hover{
+   -webkit-animation-play-state: paused;
+}
+
+.left{
+  position:absolute;
+  height:10px;
+  width:40px;
+  background:black;
+  -webkit-transform:rotate(240deg);
+  top:10px;
+  left:10px;
+  -webkit-border-radius:4px;
+  -webkit-transform-origin:5px 50%;
+  -webkit-animation: leftArrow 0.5s 1s infinite ease-out alternate;
+}
+
+.right{
+  position:absolute;
+  height:10px;
+  width:40px;
+  background:black;
+  -webkit-transform:rotate(-60deg);
+  top:10px;
+  left:10px;
+  -webkit-border-radius:4px;
+  -webkit-transform-origin:5px 50%;
+  -webkit-animation: rightArrow 0.5s 1s infinite ease-out alternate;
+}
+
+
+
+
+@-webkit-keyframes arrow{
+  0% {
+    bottom:0px;
+  }
+  100%{
+    bottom:40px;
+  }
+}
+
+
+@-webkit-keyframes leftArrow{
+  0% {
+  }
+  100%{
+    -webkit-transform:rotate(225deg);
+  }
+}
+
+@-webkit-keyframes rightArrow{
+  0% {
+  }
+  100%{
+    -webkit-transform:rotate(-45deg);
+  }
+}
+
+
+
+.button_content{
+
+	
+	position: absolute;
+	margin-top: 6%;
+
+	
+	width: 100%;
+
+
+
+}
+
+/* From uiverse.io by @adamgiebl */
+#linke {
+ background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+ background-size: 800% 400%;
+ padding: 1em 6em;
+ display: inline-block;
+ border: none;
+ border-radius: 10px;
+ font-size: 1rem;
+ font-weight: 900;
+ color: white;
+cursor: pointer;
+ transition: all .4s ease-in-out;
+
+ animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+}
+
+#linken:hover {
+ animation: gradient 3s infinite;
+ transform: scale(1.05);
+}
+
+#linke:active {
+ animation: gradient 3s infinite;
+ transform: scale(0.8);
+}
+
+@keyframes gradient {
+ 0% {
+  background-position: 0% 50%;
+ }
+
+ 50% {
+  background-position: 100% 50%;
+ }
+
+ 100% {
+  background-position: 0% 50%;
+ }
+}
+
+
+
+#git {
+ background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+ background-size: 800% 400%;
+ padding: 1em 6em;
+ display: none;
+ border: none;
+ border-radius: 10px;
+ font-size: 1rem;
+ font-weight: 900;
+ color: white;
+cursor: pointer;
+ transition: all .4s ease-in-out;
+
+ animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+}
+
+#git:hover {
+ animation: gradient 3s infinite;
+ transform: scale(1.05);
+}
+
+#git:active {
+ animation: gradient 3s infinite;
+ transform: scale(0.8);
+}
+
+@keyframes gradient {
+ 0% {
+  background-position: 0% 50%;
+ }
+
+ 50% {
+  background-position: 100% 50%;
+ }
+
+ 100% {
+  background-position: 0% 50%;
+ }
+}
+
+/* From uiverse.io by @alexmaracinaru */
+.cta {
+position: relative;
+ margin: auto;
+ padding: 12px 18px;
+ transition: all 0.2s ease;
+ border: none;
+ background: none;
+ margin-left: 14%;
+ cursor: pointer;
+}
+
+.cta:before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: block;
+ border-radius: 50px;
+ background: white;
+ width: 45px;
+ height: 45px;
+ transition: all 0.3s ease;
+
+}
+
+.cta span {
+ position: relative;
+ font-family: "Ubuntu", sans-serif;
+ font-size: 18px;
+ font-weight: 700;
+ letter-spacing: 0.05em;
+ color: #234567;
+}
+
+.cta svg {
+ position: relative;
+ top: 0;
+ margin-left: 10px;
+ fill: none;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+ stroke: #234567;
+ stroke-width: 2;
+ transform: translateX(-5px);
+ transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+ width: 100%;
+ background: #b1dae7;
+}
+
+.cta:hover svg {
+ transform: translateX(0);
+}
+
+.cta:active {
+ transform: scale(0.95);
+}}
+
+
+.container_2{
+
+
+}
+
+.content_2{
+  text-align: center;
+    margin-top: 6%;
+  font-family: "Sofia", sans-serif;
+}
+.content_2 h2{
+    font-weight: bold;
+margin-bottom: 4%;
+
+font-size: 2rem;
+}
+
+.main_content{
+  width: 75%;
+    font-family: "Sofia", sans-serif;
+
+  margin-left: 13%;
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+.main_content_2{
+
+  width: 75%;
+   margin-left: 13%;
+
+}
+
+
+.content_4{
+  text-align: center;
+    margin-top: 4%;
+  font-family: "Sofia", sans-serif;
+}
+.content_4 h2{
+    font-weight: bold;
+margin-bottom: 4%;
+
+font-size: 2rem;
+}
+
+
+
+.card-container {
+  align-items: start;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, 400px);
+  justify-content: center;
+  text-align: center;
+
+}
+
+.card {
+
+  border-radius: 5px;
+
+  padding: 15px 0 15px;
+  text-align: center;
+  text-shadow: 1px 1px 0 #555;
+  border: 3px solid  #FF5086;
+
+}
+.card:hover{
+  background-color: #FF5086;
+  border: 3px solid  black;
+  color: white;
+}
+
+.fas {
+  font-size: 50px;
+}
+.container_4{
+
+  margin-bottom: 4%;
+}
+.content_4{
+ text-align: center;
+    margin-top: 8%;
+  font-family: "Sofia", sans-serif;
+}
+
+
+.content_4 h2{
+
+font-size: 2rem;
+}
+
+
+
+:root{
+  --primary-color:#23355A;
+  --bg-color: #23355A;
+  --text-color: white;
+}
+
+
+
+.card-container_2 {
+  align-items: start;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, auto-fit);
+  justify-content: center;
+  text-align: center;
+ width: 75%;
+
+ margin-left: 13%;
+}
+
+
+.container_cards{
+  background: white;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  padding: 25px 30px;
+  color: var(--primary-color);
+  border: 1px solid black;
+ display: grid;
+  justify-content: center;
+  align-items: strech;
+
+
+ 
+}
+
+.container_cards::after{
+  content: '';
+  background: var(--primary-color);
+  opacity: 0.8;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  clip-path: circle(10% at 0% 0%);           transition: all .3s ease-in;
+
+  
+}
+
+.container_cards a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.content_cards{
+  position: relative;
+  z-index: 1;
+  transition: all .3s ease-in;
+}
+
+.container_cards:hover::after{
+  clip-path: circle(100%);
+}
+
+.container_cards:hover .content_cards{
+  color: var(--text-color);
+}
+
+
+
+
+
+
+
+footer {
+  background: #1e3161;
+  width: 100%;
+ 
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: #2f4374 0 10px 20px 5px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+.heading {
+  margin-bottom: 15px;
+  color: white;
+}
+.col1 {
+  flex: 1;
+}
+.col2 {
+  flex: 2;
+}
+.col3 {
+  flex: 1;
+}
+
+.col1 p {
+  display: inline-block;
+  padding: 7px 0;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+.col1 p:hover {
+  color: #58bed5;
+}
+.col1 .languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+
+}
+
+.col2 .languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 14px;
+
+}
+.col2 p {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 3px;
+    color: white;
+
+}
+.col2 p:hover {
+  color: #58bed5;
+text-decoration: none;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+
+}
+.col3 ion-icon {
+  font-size: 30px;
+  color: white;
+}
+.social a:hover ion-icon {
+  color: white;
+}
+
+.terms {
+
+  font-size: 1.3rem;
+}
+.terms a {
+  color: white;
+}
+
+
+    /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 580px) {
+/* Styles */
+.content{
+  position: absolute;
+  font-family: "Sofia", sans-serif;
+  
+  margin-left: 10%;
+  top: 10%;
+ 
+}
+
+.content h1{
+  font-size: 4rem;
+ padding-bottom: 5%;
+}
+.content h3{
+ 
+ padding-bottom: 5%;
+}
+#git{
+  display: block;
+}
+.button_content{
+  display: grid;
+  grid-gap: 40px;
+}
+
+.cta {
+
+margin-left: 25%;
+ 
+}
+.main_content{
+  text-align: justify-all;
+}
+.card-container_2{
+ width: 100%;
+  margin: 0;
+  padding: 0 2%;
+}
+.terms{
+    font-size: 1rem;
+}
+}
+
+
+
